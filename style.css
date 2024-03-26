@@ -4,3 +4,22 @@
     margin: 0 auto;
     outline: solid red;
 }
+.header__title, .footer__title{
+    font-family: "Raleway";  
+}
+.our-team__name{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.header__item-link, .header__link{
+    font-family: "Roboto";
+}
+.footer__text,.footer__link, .our-team__job, .info__text{
+    font-family: "Roboto";
+}
+.our-team__title, .about-us__title, .info__title, .hero__btn{
+    font-family: "Roboto";
+}
+.hero__title{
+        font-family: "Roboto";
+}
