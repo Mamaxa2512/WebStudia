@@ -7,7 +7,10 @@
 .header__title, .footer__title{
     font-family: "Raleway";  
 }
-
+.our-team__title{
+    font-size: 36px;
+    font-weight: bold;
+}
 *{
     font-family: "Roboto";
     font-size: 14px;
@@ -35,3 +38,36 @@ h1{
 .about-us__list{
     display: flex;
 }
+.our-team__list{
+    display: flex;
+    justify-content: space-around;
+}
+.our-team__item{
+    height: 368px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #FFFFFF;
+}
+.our-team__image{
+    height: 260px;
+    width: 270px;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+.our-team__container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 125px;
+}
+.our-team__title{
+    text-align: center;
+}
+.our-team, .about-us, .info{
+    background-color: #F5F4FA;
+}
+
