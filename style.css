@@ -7,19 +7,32 @@
 .header__title, .footer__title{
     font-family: "Raleway";  
 }
-.our-team__name{
+
+*{
     font-family: "Roboto";
+    font-size: 14px;
+}
+h1{
+    /* color: #FFFFFF; */
+}
+.our-team__name, .header__item-link, .header__link, .footer__link{
+    font-weight: medium;
+}
+.our-team__name{
     font-size: 16px;
 }
-.header__item-link, .header__link{
-    font-family: "Roboto";
+.header__link{
+    color: #757575;
 }
-.footer__text,.footer__link, .our-team__job, .info__text{
-    font-family: "Roboto";
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 29px;
 }
-.our-team__title, .about-us__title, .info__title, .hero__btn{
-    font-family: "Roboto";
-}
-.hero__title{
-        font-family: "Roboto";
+.about-us__container{
+    display: flex;
+    flex-direction: row;
 }
