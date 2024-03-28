@@ -24,17 +24,10 @@ h1{
 .our-team__name{
     font-size: 16px;
 }
-.header__link{
+.header__link, .info__text{
     color: #757575;
 }
-.hero__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    gap: 29px;
-}
+
 .about-us__list{
     display: flex;
 }
@@ -67,7 +60,55 @@ h1{
 .our-team__title{
     text-align: center;
 }
-.our-team, .about-us, .info{
+.our-team{
     background-color: #F5F4FA;
 }
+.about-us__list{
+    display: flex;
+    justify-content: space-around;
 
+}
+.about-us__image{
+    width: 370px;
+    height: 295px;
+    margin-top: 49px;
+}
+.about-us__container{
+    padding-bottom: 94px;
+}
+.about-us__title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.info__list{
+    display: flex;
+    gap: 30px;
+}
+.info__container{
+    padding: 94px 15px;
+}
+.hero{
+    background-color: #2F303A;
+}
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 29px;
+}
+.hero__title{
+    font-size: 44px;
+    color: #FFFFFF;
+    max-width: 609px;
+    text-align: center;
+}
+.hero__btn{
+    width: 260px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    
+}
