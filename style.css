@@ -32,7 +32,6 @@ h1{
     padding-bottom: 200px;
     gap: 29px;
 }
-.about-us__container{
+.about-us__list{
     display: flex;
-    flex-direction: row;
 }
