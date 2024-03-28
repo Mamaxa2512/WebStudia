@@ -63,6 +63,9 @@ h1{
 .our-team{
     background-color: #F5F4FA;
 }
+.our-team__name{
+    margin-bottom: 14px;
+}
 .about-us__list{
     display: flex;
     justify-content: space-around;
@@ -88,6 +91,11 @@ h1{
 .info__container{
     padding: 94px 15px;
 }
+.info__item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
 .hero{
     background-color: #2F303A;
 }
@@ -110,5 +118,6 @@ h1{
     height: 50px;
     color: #FFFFFF;
     background-color: #2196F3;
-    
+    border-radius: 4px;
+    border: none;
 }
