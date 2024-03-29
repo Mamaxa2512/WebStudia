@@ -120,10 +120,9 @@
     line-height: 36px;
     letter-spacing: 1.08px;
     margin-top: 20px;
-    p
     /* margin-left: 24px;
-    margin-right: 24px;
-} */
+    margin-right: 24px;*/
+} 
 .box__text{
     color: #757575;
     font-family: Roboto;

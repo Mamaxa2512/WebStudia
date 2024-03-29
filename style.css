@@ -2,7 +2,7 @@
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: solid red;
+    /* outline: solid red; */
 }
 .header__title, .footer__title{
     font-family: "Raleway";  
